@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://b7jtmabyd6oh6"]
 
 [ext_resource type="Script" uid="uid://bqumri5blk2tn" path="res://control.gd" id="1_myes8"]
+[ext_resource type="Texture2D" uid="uid://cqen3tpvibwgy" path="res://Image Assets/StepsCounter Mask.png" id="2_3nwn6"]
+[ext_resource type="Script" uid="uid://cj66qyyge4tiq" path="res://Scenes/texture_rect.gd" id="3_xxfk1"]
 
 [node name="Control" type="Control" unique_id=1595390156]
 layout_mode = 3
@@ -23,3 +25,10 @@ button_mask = 3
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 54.0
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=494101330]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_3nwn6")
+script = ExtResource("3_xxfk1")

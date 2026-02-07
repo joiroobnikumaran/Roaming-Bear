@@ -9,11 +9,18 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="VScrollBar" type="VScrollBar" parent="." unique_id=687448796]
+z_index = 3
 layout_mode = 0
-offset_left = 702.0
-offset_top = 17.0
-offset_right = 723.0
+offset_left = 696.0
+offset_top = -8.0
+offset_right = 715.0
 offset_bottom = 1284.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=537612443]
+layout_mode = 0
+offset_right = 713.0
+offset_bottom = 1274.0
+color = Color(0.29803923, 0.15294118, 0.05490196, 1)
 
 [node name="Container" type="Container" parent="." unique_id=1843975597]
 layout_mode = 1
